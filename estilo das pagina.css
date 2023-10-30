@@ -1,3 +1,4 @@
+
 /* Define um estilo base para todos os elementos, removendo margens e preenchimentos padrão */
 * {
     margin: 0px;
@@ -95,12 +96,21 @@
     background-color: #fc961f;
     padding: 0px;
 }
-.tamalhoFundo {
+.medidasFundo {
     padding: 20px;
     border-radius: 10px;
+    align-items: center;
 
     min-width: 250px;
-    max-width: 800px;
+    max-width:80%;
+    margin: auto;
+}
+.medidasFundo2 {
+    padding: 40px;
+    border-radius: 20px;
+
+    min-width: 250px;
+    max-width:80%;
     margin: auto;
 }
 
@@ -141,7 +151,10 @@
 .h1_red {
     color: red;
 }
-
+.displeyFlexColuna {
+    display: flex;
+    flex-direction: column;
+}
 /* Estilos para bordas de letras com diferentes cores */
 .borda_letra {
     -webkit-text-stroke-width: 1px;
@@ -189,11 +202,6 @@ i {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ff3838;
     text-decoration: none;
-}
-
-/* Estilos para títulos h2 */
-h2 {
-    color: aliceblue;
 }
 
 /* Estilos para elementos "figure" */
